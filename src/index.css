@@ -17,6 +17,7 @@ code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 .notes-list{
   display: grid;
@@ -100,5 +101,16 @@ textarea:focus{
 }
 .search input:focus{
   outline: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark-mode{
+  background-color: #000000;
+}
+.dark-mode h1{
+  color: #ffffff;
 }
 
